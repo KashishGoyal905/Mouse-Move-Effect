@@ -5,7 +5,13 @@ html {
 
   body {
     margin: 0;
-    background-color:orange;
+    background-color:wheat;
+    box-sizing: border-box;
+  }
+  h2{
+      text-align:center;
+      margin-left: 41%;
+      position: absolute;
   }
 
   .hero {
@@ -14,9 +20,10 @@ html {
     justify-content: center;
     align-items: center;
     color: black;
+    position: relative;
   }
 
   h1 {
-    text-shadow: 10px 10px 0 rgba(0,0,0,1);
-    font-size: 100px;
+    text-shadow: 0px 0px 0 rgba(0,0,0,1);
+    font-size: 90px;
   }
